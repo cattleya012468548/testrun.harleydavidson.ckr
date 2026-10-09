@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Discover iconic Harley-Davidson motorcycles, book a showroom visit, and find your next ride.">
+  <title>Iron & Ember | Harley-Davidson Motorcycle Dealer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">BUILT FOR THE OPEN ROAD <span>•</span> BOOK YOUR SHOWROOM VISIT TODAY</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Iron and Ember home">
+      <span class="brand-mark">I<span>&</span>E</span>
+      <span class="brand-name">IRON <em>&</em> EMBER<small>MOTORCYCLE CO.</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#motorcycles">Motorcycles</a>
+      <a href="#experience">Our Experience</a>
+      <a href="#about">About Us</a>
+      <a class="nav-cta" href="#contact">Visit the Dealer <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE SPIRIT OF THE RIDE</p>
+        <h1>OWN THE<br><span>OPEN ROAD.</span></h1>
+        <p class="hero-copy">Discover the unmistakable character of Harley-Davidson. Find the machine that matches your spirit, and make every mile count.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#motorcycles">Explore Motorcycles <span>↗</span></a>
+          <a class="text-link" href="#about">Discover our story <span>→</span></a>
+        </div>
+        <div class="hero-caption"><span class="caption-bar"></span> ICONIC BY NATURE. UNMISTAKABLE BY DESIGN.</div>
+      </div>
+      <div class="hero-stamp"><span>RIDE</span><b>YOUR</b><span>OWN WAY</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Dealer values">
+      <div>FREEDOM <span>✦</span> CRAFTSMANSHIP <span>✦</span> CHARACTER <span>✦</span> THE OPEN ROAD <span>✦</span> FREEDOM <span>✦</span> CRAFTSMANSHIP <span>✦</span></div>
+    </section>
+
+    <section class="section motorcycles" id="motorcycles">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span class="eyebrow-line"></span> FIND YOUR MACHINE</p><h2>MADE TO <span>MOVE YOU.</span></h2></div>
+        <p class="section-intro">From stripped-back cruisers to long-distance touring icons, explore motorcycles for every kind of road ahead.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter motorcycles">
+        <button class="filter active" data-filter="all">All Motorcycles</button>
+        <button class="filter" data-filter="cruiser">Cruiser</button>
+        <button class="filter" data-filter="touring">Touring</button>
+        <button class="filter" data-filter="sport">Sport</button>
+        <button class="filter" data-filter="adventure">Adventure</button>
+      </div>
+      <div class="bike-grid">
+        <article class="bike-card" data-category="cruiser">
+          <div class="bike-image"><img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85" alt="Dark cruiser motorcycle on a road" loading="lazy"><span class="bike-tag">CRUISER</span><span class="bike-number">01</span></div>
+          <div class="bike-info"><div><h3>Street Bob™</h3><p>Stripped-back attitude. Pure freedom.</p></div><a href="https://www.harley-davidson.com/id/id/motorcycles/cruiser.html" target="_blank" rel="noreferrer" aria-label="Explore Street Bob">↗</a></div>
+        </article>
+        <article class="bike-card" data-category="touring">
+          <div class="bike-image"><img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=85" alt="Touring-style motorcycle ready for a long ride" loading="lazy"><span class="bike-tag">TOURING</span><span class="bike-number">02</span></div>
+          <div class="bike-info"><div><h3>Street Glide™</h3><p>Go further, in unmistakable style.</p></div><a href="https://www.harley-davidson.com/id/id/motorcycles/touring.html" target="_blank" rel="noreferrer" aria-label="Explore Street Glide">↗</a></div>
+        </article>
+        <article class="bike-card" data-category="sport">
+          <div class="bike-image"><img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1000&q=85" alt="Sport motorcycle detail" loading="lazy"><span class="bike-tag">SPORT</span><span class="bike-number">03</span></div>
+          <div class="bike-info"><div><h3>Sportster™ S</h3><p>Modern performance. Iconic soul.</p></div><a href="https://www.harley-davidson.com/id/id/motorcycles/sport.html" target="_blank" rel="noreferrer" aria-label="Explore Sportster S">↗</a></div>
+        </article>
+        <article class="bike-card" data-category="adventure">
+          <div class="bike-image"><img src="https://images.unsplash.com/photo-1558980394-0c9a7b9c9b7b?auto=format&fit=crop&w=1000&q=85" alt="Adventure motorcycle in an outdoor setting" loading="lazy"><span class="bike-tag">ADVENTURE</span><span class="bike-number">04</span></div>
+          <div class="bike-info"><div><h3>Pan America™</h3><p>Ready for the road less travelled.</p></div><a href="https://www.harley-davidson.com/id/id/motorcycles/adventure-touring.html" target="_blank" rel="noreferrer" aria-label="Explore Pan America">↗</a></div>
+        </article>
+      </div>
+      <p class="image-note">Motorcycle imagery is illustrative. Visit the official Harley-Davidson website for current model photography and specifications.</p>
+      <div class="centered"><a class="button button-black" href="https://www.harley-davidson.com/id/id/motorcycles/index.html" target="_blank" rel="noreferrer">View Official Lineup <span>↗</span></a></div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience-photo"></div>
+      <div class="experience-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MORE THAN A MOTORCYCLE</p>
+        <h2>THE RIDE IS<br><span>THE REWARD.</span></h2>
+        <p>We believe a great ride starts with the right people. Explore your options with our team, get to know the details, and find a bike that feels like it was made for you.</p>
+        <div class="experience-points">
+          <div><span>01</span><p><b>Personal guidance</b><small>Talk through models and riding goals.</small></p></div>
+          <div><span>02</span><p><b>Explore the lineup</b><small>Compare styles, features, and fit.</small></p></div>
+          <div><span>03</span><p><b>Plan your visit</b><small>Connect with our showroom team.</small></p></div>
+        </div>
+        <a class="button button-red" href="#contact">Plan Your Visit <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="eyebrow dark"><span class="eyebrow-line"></span> OUR PHILOSOPHY</p>
+      <h2>NOT JUST THE WAY<br>YOU RIDE. <span>WHO YOU ARE.</span></h2>
+      <p class="about-copy">For riders who value individuality, honest craftsmanship, and the feeling of an open road. We’re here to help you discover your next chapter, one ride at a time.</p>
+      <div class="about-bottom"><span>EST. FOR THE ROAD AHEAD</span><span class="orange-dot"></span><span>IRON & EMBER MOTORCYCLE CO.</span></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER STARTS HERE</p><h2>LET'S TALK<br><span>ABOUT YOUR RIDE.</span></h2><p>Have a model in mind or just starting to explore? Reach out to our team or plan a visit to the showroom.</p></div>
+        <form id="contact-form">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="interest">I'm interested in</label><select id="interest" name="interest"><option>Exploring motorcycles</option><option>Booking a showroom visit</option><option>Learning about a model</option><option>General enquiry</option></select>
+          <button class="button button-red submit-button" type="submit">Send Enquiry <span>↗</span></button>
+          <p class="form-message" id="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">I<span>&</span>E</span><span class="brand-name">IRON <em>&</em> EMBER<small>MOTORCYCLE CO.</small></span></a>
+    <p>For the love of the ride.</p>
+    <div class="footer-links"><a href="#motorcycles">Motorcycles</a><a href="#experience">Experience</a><a href="#contact">Contact</a><a href="https://www.harley-davidson.com/id/id/index.html" target="_blank" rel="noreferrer">Harley-Davidson Official ↗</a></div>
+    <small class="legal">Independent concept dealer website. Not affiliated with or endorsed by Harley-Davidson Motor Company. All trademarks belong to their respective owners.</small>
+    <small class="copyright">© <span id="year"></span> Iron & Ember Motorcycle Co.</small>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
